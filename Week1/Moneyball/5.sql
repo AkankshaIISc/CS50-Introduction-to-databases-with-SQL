@@ -1,0 +1,1 @@
+SELECT teams.name FROM "players" JOIN "performances" ON "performances"."player_id" = "players"."id" JOIN "teams" ON "teams"."id" = "performances"."team_id" WHERE players.first_name = 'Satchel' AND players.last_name = 'Paige';
